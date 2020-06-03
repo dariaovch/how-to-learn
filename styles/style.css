@@ -1,3 +1,16 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -18,6 +31,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -406,6 +420,7 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -413,6 +428,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .table_theme_dark {
