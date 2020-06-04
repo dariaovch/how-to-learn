@@ -203,7 +203,9 @@
 
 .video__iframes {
   list-style: none;
+  width: 1050px;
   display: flex;
+  justify-content: space-between;
   margin: 50px auto -60px auto;
   padding-left: 0;
 }
@@ -211,10 +213,6 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-}
-
-.video__iframe:nth-of-type() {
-  margin-right: 20px;
 }
 
 .oakley {
