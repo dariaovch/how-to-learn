@@ -8,4 +8,9 @@
     text-align: center;
     color: #000000;
     text-decoration: none;
+    transition: opacity 0.4s;
+  }
+
+  .feynman__link:hover {
+    opacity: .5;
   }
